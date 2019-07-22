@@ -15,6 +15,9 @@
    t))
 
 
+;; Global key bind to set 'g' for git in magit
+(global-set-key (kbd"C-x g") 'magit-status)
+
 ;; Mute that annoying ass beep
 (setq visible-bell 1)
 
